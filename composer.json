@@ -1,0 +1,23 @@
+{
+    "name": "kerasai/console-command-loader",
+    "description": "Load services from the container as console commands Symfony.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Will Long",
+            "email": "will@kerasai.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.4",
+        "symfony/dependency-injection": "^4.4"
+    },
+    "require-dev": {
+        "consolidation/robo": "~1",
+        "kerasai/robo-phpcs": "^0.0.4",
+        "drupal/coder": "^8.3"
+    },
+    "autoload": {
+        "psr-4": {"Kerasai\\ContainerAware\\": "src/"}
+    }
+}
